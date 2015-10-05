@@ -1,0 +1,33 @@
+{
+  "name": "makroxyz/yii2-cropit",
+  "description": "Yii2 cropit extension",
+  "keywords": [
+    "yii",
+    "cropit",
+    "image",
+    "crop"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/makroxyz/yii2-cropit/issues",
+    "source": "https://github.com/makroxyz/yii2-cropit"
+  },
+  "authors": [
+    {
+      "name": "Marco Curatitoli",
+      "email": "makroxyz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "2.0.*",
+    "bower-asset/cropit": "~0.4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "makroxyz\\cropit\\": ""
+    }
+  }
+}
